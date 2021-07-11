@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  /* background: #131313; */
+  background: rgba(15, 15, 15, 0.7);
+  padding: 1rem 8rem;
+  overflow: hidden;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+#navbarSupportedContent ul li:nth-child(n) a {
+  color: white;
+  font-size: 1rem;
+  padding: 0 0.7rem;
+}
+
+#navbarSupportedContent ul li:nth-child(n) a:hover {
+  color: #30475E;
+}
+
+/* Banner  */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+.banner .content {
+  position: relative;
+  max-width: 750px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.banner .content h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* white-space: nowrap; */
+}
+
+.banner .content p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: orange;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.about {
+  position: relative;
+  background-color: violet;
+}
+
+.game {
+  position: relative;
+  margin-top: 70px;
+  height: 100%;
+  background-image: url(assets/assets/the-games-bg.jpg);
+  background-size: cover;
+}
+
+.title {
+  margin-top: 250px;
+  margin-right: 100px;
+  color: white;
+}
+
+.slide {
+  margin-left: 150px;
+  padding-bottom: 80px;
+}
