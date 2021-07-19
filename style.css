@@ -9,12 +9,12 @@
 
 html, body {
   width: 100%;
+  height: 100%;
 }
 
 /* Navbar */
 
 .navbar {
-  /* background: #131313; */
   background: rgba(15, 15, 15, 0.7);
   padding: 1rem 8rem;
   overflow: hidden;
@@ -69,7 +69,6 @@ html, body {
   font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
-  /* white-space: nowrap; */
 }
 
 .banner .content p {
@@ -140,19 +139,13 @@ html, body {
   position: relative;
   max-width: 100%;
   top: -17vh;
-  /* left: 27vh; */
-  /* text-align: center; */
-  /* margin-left: 400px;
-  margin-top: -150px; */
+  left: 27vh; 
 }
 .features {
   position: relative;
   width: 100%;
-  /* height: 990px; */
-  /* height: 150vh; */
-  height: 130vh;
+  height: 100vh;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 .features .contentfeat h6 {
@@ -187,6 +180,7 @@ html, body {
 }
 .feat2 {
   left: 40vw;
+  width: 20vw;
   position: relative;
   color: white;
   font-weight: normal;
@@ -194,14 +188,14 @@ html, body {
 .suit {
   left: 40vw;
   position: relative;
-  top: 1.4vw;
+  top: 1.2vh;
   color: orange;
   text-transform: uppercase;
 }
 .tbd {
   left: 40vw;
   position: relative;
-  top: 3vw;
+  top: 4vh;
   color: orange;
   text-transform: uppercase;
 
@@ -243,7 +237,7 @@ html, body {
 .requirements {
   position: relative;
   width: 100%;
-  height: 130vh;
+  height: 100vh;
 }
 .text-sys {
   position: relative;
@@ -263,11 +257,10 @@ html, body {
   letter-spacing: 0.2rem;
 }
 #requirement-grid {
-  /* background-color: teal; */
   background-color: transparent;
   color: white;
   position: relative;
-  top: 40vh;
+  top: 20vh;
   left: 1vw;
 }
 /* Akhir Requirements */
@@ -287,7 +280,7 @@ html, body {
 .subtitle-top {
   position: relative;
   text-transform: uppercase;
-  top: 48vh;
+  top: 32vh;
   left: 10vw;
   font-size: 3.6vw;
   font-style: normal;
@@ -295,17 +288,30 @@ html, body {
 }
 .title-top p {
   position: relative;
-  top: 50vh;
-  padding-left: 10vw;
+  width: 31vw;
+  top: 35vh;
+  padding-left: 10.4vw;
 }
 .title-top a {
   position: relative;
-  top: 55vh;
+  top: 37vh;
+}
+.btn-see {
+  position: relative;
+  width: 15vw;
+  height: 7vh;
+  left: 10vw;
+  text-align: center;
+  text-transform: lowercase;
+}
+.btn-see span {
+  position: relative;
+  top: 0.8vh;
 }
 #evan-card {
   position: relative;
-  top: 15vh;
-  padding-left: 63vw;
+  top: -20vh;
+  padding-left: 58vw;
 }
 
 .card-body img {
@@ -372,8 +378,8 @@ html, body {
 }
 #jade-card {
   position: relative;
-  top: 20vh;
-  padding-left: 50vw;
+  top: -17vh;
+  padding-left: 45vw;
 }
 .date2 {
   position: relative;
@@ -391,8 +397,8 @@ html, body {
 }
 #aaron-card {
   position: relative;
-  top: 25vh;
-  padding-left: 58vw;
+  top: -14vh;
+  padding-left: 52vw;
 }
 .date3 {
   position: relative;
@@ -402,6 +408,148 @@ html, body {
   left: -6.7vw;
   font-size: 0.8vw;
 }
+
+/* New Letter */
+#news-img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(8, 10, 11);
+}
+.pictures img {
+  position: relative;
+  width: 23rem;
+  height: 30rem;
+  top: 10vh;
+  left: 9.2vw;
+}
+.kotak {
+  position: absolute;
+  background: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080a0b00 99.74%);
+  width: 23rem;
+  height: 30rem;
+  top: 10vh;
+  left: 10vw;
+}
+hr {
+  position: relative;
+  top: -30vh;
+  color: white;
+  left: 8vw;
+}
+.footer1 {
+  position: relative;
+  color: white;
+  top: -30vh;
+  left: 8vw;
+  margin: 0;
+}
+.footer2 {
+  position: relative;
+  color: white;
+  top: -33vh;
+  right: 6.5vw
+}
+.iconsosmed {
+  position: relative;
+  left: 5vw;
+  padding-left: 3.5vw;
+}
+.text-news {
+  position: relative;
+  color: white;
+  width: 14vw;
+  font-size: 1.3vw;
+  font-weight: 100;
+  letter-spacing: 0.2vw;
+  left: 43vw;
+  top: -50vh;
+}
+.text-news h1 {
+  position: relative;
+  top: 1vh;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 3vw;
+  letter-spacing: 0.7vw;
+}
+.text-news2 {
+  position: relative;
+  color: white;
+  width: 41vw;
+  top: -48vh;
+  left: 43vw;
+  font-size: 1.3vw;
+  font-weight: 200;
+  letter-spacing: normal;
+}
+.btn-email {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.08);
+  text-transform: none;
+  top: -46vh;
+  left: 43vw;
+  width: 21vw;
+  height: 8vh;
+}
+.btn-email span {
+  position: relative;
+  font-weight: 100;
+  font-size: 1vw;
+  left: -5.6vw;
+  top: -0.8vh;
+}
+.btn-email p {
+  position: relative;
+  color: rgba(255, 181, 72, 1);
+  font-weight: 200;
+  font-size: 1.2vw;
+  left: -3.8vw;
+  top: -1vh;
+
+}
+.btn-subscribe {
+  position: relative;
+  background-color: rgba(255, 181, 72, 1);
+  text-transform: initial;
+  top: -46vh;
+  left: 43vw;
+  width: 18.7vw;
+  height: 8vh;
+}
+.btn-subscribe span {
+  position: relative;
+  top: 1vh;
+  text-align: center;
+}
+.info {
+  position: relative;
+  color: white;
+  top: -30vh;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.subinfo1 {
+  position: relative;
+  margin-left: 20vw;
+}
+.subinfo2 {
+  position: relative;
+  margin-left: 4vw;
+}
+.subinfo3 {
+  position: relative;
+  margin-left: 4vw;
+}
+.subinfo4 {
+  position: relative;
+  margin-left: 4vw;
+}
+.subinfo5 {
+  position: relative;
+  margin-left: 4vw;
+}
+/* Akhir New Letter */
 
 /* Image */
 #banner-img {
@@ -425,7 +573,6 @@ html, body {
   background-size: cover;
 }
 
-
 /* Mobile Ver */ 
  @media (max-width: 768px) {
   * {
@@ -438,19 +585,23 @@ html, body {
   .title {
     margin-top: 200px;
     margin-left: 2rem;
-    text-transform: uppercase;
+    color: red;
+    text-transform: capitalize;
   }
 
   .banner {
     width: 100%;
+    height: 100vh;
   }
 
   .games {
-    width: 100;
+    width: 100%;
+    height: 100vh;
   }
 
   .features {
     width: 100%;
+    height: 100vh;
   }
 
   .contentfeat {
