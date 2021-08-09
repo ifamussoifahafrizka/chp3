@@ -19,6 +19,7 @@ class suitGame {
     mainan(pilihanPemain, komputer) {
         // cek seri
         if(pilihanPemain == komputer) {
+            const versus = document.getElementById("vs");
             versus.classList.add("d-none")
             console.log("draw!");
             console.log("player 1 choose : " + pilihanPemain);
@@ -76,6 +77,7 @@ class suitGame {
                 document.getElementById("parentBatu2").style.backgroundColor="#C4C4C4";
                 const versus = document.getElementById("vs");
                 versus.classList.add("d-none")
+                console.log("com win");
                 console.log("player 1 choose : " + pilihanPemain);
                 console.log("and com choose : " + komputer);
                 return "com <br> win";
