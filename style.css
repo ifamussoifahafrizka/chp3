@@ -574,7 +574,7 @@ hr {
 }
 
 /* Mobile Ver */ 
- @media (max-width: 768px) {
+ @media (min-width: 400px) and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -585,7 +585,7 @@ hr {
   .title {
     margin-top: 200px;
     margin-left: 2rem;
-    color: red;
+    color: white;
     text-transform: capitalize;
   }
 
@@ -593,8 +593,31 @@ hr {
     width: 100%;
     height: 100vh;
   }
-
+  .banner .content h2 {
+    position: relative;
+    text-align: center;
+  }
+  .bottom-box{
+    text-align: center;
+    position: relative;
+    top: 28vh;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .link-text{
+    top: 20rem;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+  
+  .link-icon{
+    margin-top: 0vh;
+  }
   .games {
+    position: relative;
     width: 100%;
     height: 100vh;
   }
@@ -605,29 +628,33 @@ hr {
   }
 
   .contentfeat {
-    position: absolute;
+    position: relative;
     max-width: 100%;
-    /* text-align: center; */
-    margin-left: 400px;
-    margin-top: -150px;
+    top: 20vh;
+    margin-left: -30vw;
     
   }
   .features .contentfeat h6 {
+    position: relative;
     color: white;
-    margin-right: 350px;
+    font-size: 3vw;
+    /* margin-right: 350px; */
     white-space: nowrap;
   }
   .features .contentfeat h1 {
     color: white;
-    margin-right: 330px;
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 400;
   }
   .contentfeat2 h6 {
-    left: 20rem;
+    position: relative;
+    left: 7vw;
+    top: -12vh;
   }
   .contentfeat2 p {
-    left: 10rem;
+    position: relative;
+    top: -12vh;
+    left: 7vw;
   }
 }
